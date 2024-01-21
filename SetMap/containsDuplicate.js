@@ -14,8 +14,9 @@ function ContainsDup (nums) { //O(1), O(n)
         if(mySet.has(num)) return true;
         else mySet.add(num);
     } return false;
-
 }
-nums = [1,2,3,4];
+
+
+nums = [1,2,3,1];
 console.log(ContainsDup(nums));
 console.log(containsArr(nums));

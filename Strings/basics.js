@@ -51,7 +51,10 @@ console.log(JSON.stringify(obj)); //oppposite being JSON.parse(obj);
 const json = '{"result":true, "count":42}';
 console.log(JSON.parse(json));
 
-
+let newstr= "     dogra shubham  ";
+console.log(newstr.trim())
+console.log(newstr.trimEnd())
+console.log(newstr.trimStart())
 
 
 // console.log(str);
